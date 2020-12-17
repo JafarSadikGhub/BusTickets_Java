@@ -10,6 +10,34 @@
 *  Md. Jafar Sadik
 *  ID: 1620660042
  */
-public class Routes {
-
+public class Routes 
+{
+   private String name;
+   private double distance;
+   Routes(String name, double distance)
+   {
+       this.name = name;
+       this.distance = distance;
+   }
+   public String getName()
+   {
+       return this.name;
+   }
+   public double getDistance()
+   {
+       return this.distance;
+   }
+   public void setName(String name)
+   {
+       this.name = name;
+   }
+   public void setDistance(double distance)
+   {
+       this.distance = distance;
+   }
+   @Override
+   public String toString()
+   {
+       return "[ROUTES CLASS]Name: " + this.name + "\nDistance: " + this.distance + "\n\n";
+   }
 }

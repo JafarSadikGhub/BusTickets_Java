@@ -10,6 +10,7 @@
 *  Md. Jafar Sadik
 *  ID: 1620660042
  */
-public class Passenger {
-
+public class Passenger 
+{
+   
 }
